@@ -27,7 +27,7 @@ namespace AspNetCoreServerSide
                 options =>
                 {
                     //options.UseInMemoryDatabase("fingers10db");
-                    options.UseSqlServer("Server=(localdb)\\mssqllocaldb;Database=JqueryDataTablesAspNetServerSide;Trusted_Connection=True;MultipleActiveResultSets=true");
+                    options.UseSqlServer("Server=DESKTOP-99VP7OT\\SQLEXPRESS;Database=JqueryDataTablesAspNetServerSide;Trusted_Connection=True;MultipleActiveResultSets=true");
                 });
 
             // Set the languages you want to support in your app.
